@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build":"rm -rf dist && cp -R src dist",
+    "build": "rm -rf dist && cp -R src dist",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
@@ -19,6 +19,7 @@
     "express": "^5.2.1",
     "mongoose": "^9.7.1",
     "moongoose": "^0.0.5",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "react": "^19.2.7"
   }
 }
