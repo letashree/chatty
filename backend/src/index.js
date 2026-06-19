@@ -32,4 +32,7 @@ app.get("/{*any}",(req,res,next)=>{
 app.listen(PORT,()=>{
     connectDB();
     console.log("server is up and running 3000")
+    if(process.env.NODE_ENV === "production"){
+        job.start()
+    }
 });
